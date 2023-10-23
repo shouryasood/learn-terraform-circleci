@@ -1,14 +1,14 @@
-1. Create Terraform Cloud Token :
+1. Create a Terraform Cloud Token :
     A. Login to Terraform Cloud
-    B. Open ORGANIZATION SETTINGS > TEAMS > TEAM API TOKEN > VREATE A NEW TOKEN
-    C. Copy the token as it won't be shown again.
+    B. Open ORGANISATION SETTINGS > TEAMS > TEAM API TOKEN > VREATE A NEW TOKEN
+    C. Copy the token, as it won't be shown again.
 
 2. Fork & Clone a web app from GitHub to your working server.
     $ git clone https://github.com/USER_NAME/REPO_NAME
 
-3. Write Terraform Code to deploy the web app in REPOSITORY on s3 Bucket.
+3. Write a Terraform Code to deploy the web app in REPOSITORY on S3 Bucket.
 
-4. Write CIRCLE-CI jobs in .CIRCLECI-->config.yml file in your current directory.
+4. Write CIRCLE-CI jobs in the .CIRCLECI->config.yml file in your current directory.
 
 5. Configure Circle CI with Github :
     A. Generate SSH key in your workin machine/server. $ssh keygen -t ed25519 -f ~/.ssh/project_key -c yourEmail@domain.com
